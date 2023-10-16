@@ -1,0 +1,173 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gilroy';
+}
+
+body,html{
+    width: 100%;
+    height: 100%;
+}
+
+.main{
+    width: 100%;
+    height: 100vh;
+}
+
+.back{
+    width: 100%;
+    height: 100vh;
+    /* background-color: black; */
+}
+
+.top{
+    pointer-events: none;
+    /* background-color: blue; */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+}
+.back img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.working-area{
+    position: relative;
+    margin: 0 auto;
+    width: 100%;
+    height: 100vh;
+    max-width: 80%;
+    /* background-color: grey; */
+}
+.nav-bar{
+    width: 100%;
+    height: 90px;
+    /* background-color: black; */
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-left{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+.nav-left img{
+    height: 65px;
+}
+
+.nav-left a{
+    pointer-events: all;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: white;
+}
+
+.nav-right{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.nav-right a{
+    pointer-events: all;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: white;
+}
+
+.hero{
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translate(0%,-50%);
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    /* height: 60px; */
+    /* background-color: aliceblue; */
+}
+
+.hero-left{
+    min-width: 50%;
+    /* height: 60px; */
+    /* background-color: yellow; */
+    
+}
+
+.hero-right{
+    width: 30%;
+    /* height: 60px; */
+    /* background-color: green; */
+    
+}
+.elem{
+    position: relative;
+    height: 9vw;
+    overflow: hidden;
+}
+
+.elem h1:nth-child(1){
+    top:0%;
+}
+.elem h1{
+    position: absolute;
+    top:100%;
+    left: 0%;
+    font-size: 9vw;
+    font-family: "kajiro";
+    font-weight: 100;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+button{
+    pointer-events: all;
+    font-family: "kajiro";
+    /* margin-left: .5rem; */
+    margin-top: .5rem;
+    font-size: 2.5vw;
+    padding: .8vw 3vw;
+}
+
+.hero-right p{
+    text-transform: uppercase;
+    font-size: 1.3rem;
+    color: #fff;
+    font-weight: 700;
+    text-align: center;
+}
+
+.slider{
+    margin-top: 15px;
+    position: relative;
+    width: 100%;
+    height: 50%;
+}
+
+
+.slider img{
+    position: absolute;
+    width: 0%;
+    height:100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+#para{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 700;
+    margin-top: 20px;
+    font-size: .8rem;
+    text-align: left;
+}
